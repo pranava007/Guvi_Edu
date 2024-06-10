@@ -181,7 +181,7 @@ function App() {
     
     <BrowserRouter>
     <Routes>
-      <Route path='/All' element={<All data={data}/>} />
+      <Route path='/' element={<All data={data}/>} />
       <Route path='/Fullstack' element={<Fullstack data={data} />} />
       <Route path='/Datascience' element={<Datascience data={data} />} />
       <Route path='/Cyber' element={<Cyber data={data}/>} />

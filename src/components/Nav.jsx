@@ -27,7 +27,7 @@ const Nav = () => {
         </li>
         
         <li class="nav-item down">
-        <Link to="/All">ALL</Link>
+        <Link to="/">ALL</Link>
         </li>
 
         <li class="nav-item down">

@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.row{
+  /* border: 1px solid black; */
+}
+.container{
+  /* border: 1px solid red; */
+}
+.blog{
+  font-size:x-large;
+}
+
+form input{
+ width: 230px !important;
+ margin-top: 10px;
+
+}
+
+.vertical-line {
+  border-left: 1px solid rgb(165, 162, 162); /* Adjust thickness and color */
+  height: 30px; /* Adjust height */
+  margin-left: 10px;
+}
+
+.btn{
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}
+nav a{
+  color: black !important;
+  font-size: large;
+}
+
+.down {
+  margin-top: 19px;
+}
+.btndown{
+  margin-top: 11px;
+}
+
+.nav-item a:hover{
+  color:rgb(61, 241, 61) !important;
+  border-bottom: 2px solid rgb(61, 241, 61) !important;
+
+}
+
+.col{
+  /* border: 1px solid rgb(52, 58, 227); */
+
+}
+
+.cartbox{
+  padding: 10px;
+  /* border: 1px solid gray; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(79, 57, 57, 0.1); /* Box shadow */
+  background-color: white;
+  margin: 2px;
+}
+
+.cartbox:hover{
+  box-shadow: 0px 1px 30px rgb(36, 35, 35); /* Box shadow */
+}
+
+.errormsg{
+
+  color: red;
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 10px 100px rgb(215, 32, 32);
+}

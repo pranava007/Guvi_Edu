@@ -9,7 +9,7 @@ const Cart = ({element,index}) => {
       
      
         <div className="col cartbox ">
-          <img src={element.image} alt="" width='300px' height='200px'/>
+          <img src={element.image} alt="image" width='300px' height='200px'/>
           <h4 className='w-70' >{element.titile}</h4>
           <p>{element.author}</p>
           <p>{element.datas}</p>
